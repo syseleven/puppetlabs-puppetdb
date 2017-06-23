@@ -48,7 +48,7 @@ class puppetdb::params inherits puppetdb::globals {
   # These settings are for the read database
   $read_database                     = 'postgres'
   $read_database_host                = undef
-  $read_database_port                = '5432'
+  $read_database_port                = 5432
   $read_database_name                = 'puppetdb'
   $read_database_username            = 'puppetdb'
   $read_database_password            = 'puppetdb'
